@@ -1,0 +1,208 @@
+/* STILE GENERALE */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* HEADER STICKY */
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.sottotitolo {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+/* MENU MODERNO */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav ul li a {
+    padding: 10px 18px;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #3498db;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* LAYOUT */
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 25px;
+    padding: 40px;
+}
+
+/* CONTENUTO CENTRALE */
+.intro {
+    text-align: center;
+}
+
+.intro img {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* SIDEBAR */
+.sidebar {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+/* CITAZIONE */
+.citazione {
+    font-style: italic;
+    text-align: center;
+    font-size: 17px;
+}
+
+/* LISTA */
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* BOTTONE */
+button {
+    margin-top: 20px;
+    padding: 10px 22px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #34495e;
+}
+
+/* FOOTER */
+footer {
+    background-color: #ddd;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+/* CONTENUTO TESTUALE PAGINE INTERNE */
+.contenuto {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.contenuto h2 {
+    color: #2c3e50;
+    margin-top: 0;
+}
+
+.contenuto p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+/* LISTE ELEGANTI */
+.lista-contenuti {
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.lista-contenuti li {
+    margin-bottom: 10px;
+}
+
+/* TIMELINE */
+.timeline {
+    list-style: none;
+    padding-left: 0;
+}
+
+.timeline li {
+    padding: 8px 0;
+    border-left: 3px solid #2c3e50;
+    margin-left: 15px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.timeline li::before {
+    content: '';
+    position: absolute;
+    left: -9px;
+    top: 8px;
+    width: 10px;
+    height: 10px;
+    background-color: #3498db;
+    border-radius: 50%;
+}
+
+/* LISTE E CONTENUTI SPECIFICI OPERE */
+.lista-contenuti li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.vita-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.vita-img {
+    width: 200px;
+    height: auto;
+}
+
+.vita-container {
+    display: block;
+}
+
+.vita-img-centro {
+    display: block;
+    margin: 20px auto;
+    width: 350px;   /* immagine più grande */
+    max-width: 90%;
+    height: auto;
+}
+
+

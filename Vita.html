@@ -1,85 +1,67 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <title>Vita di Cesare Beccaria</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Illuminismo</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- HEADER -->
-    <header>
-        <h1>Vita di Cesare Beccaria</h1>
-        <p class="sottotitolo">Dalla nascita a un pensiero rivoluzionario</p>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Vita di Cesare Beccaria</h1>
+      <h2>Dalla nascita a un pensiero rivoluzionario</h2>
+      <p class="subtitle"><em>1738-1794</em></p>
+      <blockquote id="quote"></blockquote>
+    </div>
+  </section>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-<li><a href="Illuminismo.html">Illuminismo</a></li>
-                <li><a href="Vita.html">Vita</a></li>
-                <li><a href="Opere.html">Opera</a></li>
-                <li><a href="Oggi.html">Eredità storica</a></li>
-<li><a href="Pensiero.html">Uno sguardo personale</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- TESTO INTRO -->
+  <section class="intro reveal">
+    <p>
+<em>Cesare Beccaria</em> (1738–1794) è stato un filosofo e giurista italiano, tra i principali esponenti dell’Illuminismo. <em>È famoso</em> soprattutto per l’opera “Dei delitti e delle pene” (1764), in cui critica duramente la tortura e la pena di morte, considerate inutili e disumane. <em>Beccaria sosteneva</em> che le leggi dovessero essere chiare e uguali per tutti, e che la pena avesse come scopo principale la prevenzione del crimine, non la vendetta. <em>Secondo lui,</em> la certezza e la rapidità della pena erano più efficaci della sua severità. <em>Le sue idee</em> ebbero grande influenza in Europa e contribuirono alle riforme dei sistemi penali moderni, ispirando anche sovrani e legislatori del tempo.</p>
+  </section>
 
-    <!-- CONTENUTO -->
-    <main class="layout">
+  <!-- CARD NAVIGAZIONE -->
+  <section class="nav-section reveal">
+    <a href="index.html" class="nav-card">Home</a>
+    <a href="Illuminismo.html" class="nav-card">Illuminismo</a>
+    <a href="Opere.html" class="nav-card">Opera</a>
+    <a href="Oggi.html" class="nav-card">Eredità storica</a>
+    <a href="Pensiero.html" class="nav-card">Uno sguardo personale</a>
+  </section>
 
-        <!-- SIDEBAR SINISTRA -->
-        <aside class="sidebar">
-            <p class="citazione">
-                “Le leggi devono essere chiare, semplici e conosciute da tutti.”
-            </p>
-        </aside>
+<section class="intro reveal">
+  <h2>Timeline della vita</h2>
+  <div class="principi-container">
+    <div class="principio"><h3>1738: Nasce a Milano il 15 ottobre</h3></div>
+    <div class="principio"><h3>1758: Studia filosofia e legge presso l'Università di Pavia</h3></div>
+    <div class="principio"><h3>1763: Laurea in legge e inizia a interessarsi alla riforma penale</h3></div>
+    <div class="principio"><h3>1764: Pubblica i primi saggi filosofici</h3></div>
+    <div class="principio"><h3>1764-1766: Lavora come magistrato e approfondisce studi sul diritto penale</h3></div>
+    <div class="principio"><h3>1764: Scrive Dei delitti e delle pene, pubblicata nel 1764 a Livorno</h3></div>
+    <div class="principio"><h3>1770-1790: Consigliere di importanti istituzioni pubbliche e promotore di riforme</h3></div>
+    <div class="principio"><h3>1794: Muore a Milano il 28 novembre</h3></div>
 
-        <!-- CONTENUTO CENTRALE -->
-        <section class="contenuto">
-
-
-
-<div class="vita-container">
- <img src="Vita1.jpg" alt="Vita di Cesare Beccaria" class="vita-img-centro">
-<h2>Cesare Beccaria</h2>
-<p>Cesare Beccaria (1738–1794) è stato un filosofo e giurista italiano, tra i principali esponenti dell’Illuminismo. È famoso soprattutto per l’opera “Dei delitti e delle pene” (1764), in cui critica duramente la tortura e la pena di morte, considerate inutili e disumane.
-Beccaria sosteneva che le leggi dovessero essere chiare e uguali per tutti, e che la pena avesse come scopo principale la prevenzione del crimine, non la vendetta. Secondo lui, la certezza e la rapidità della pena erano più efficaci della sua severità.
-Le sue idee ebbero grande influenza in Europa e contribuirono alle riforme dei sistemi penali moderni, ispirando anche sovrani e legislatori del tempo.</p>
-<h2>Timeline della vita</h2>
-
-    <ul class="timeline">
-        <li><strong>1738:</strong> Nasce a Milano il 15 ottobre.</li>
-        <li><strong>1758:</strong> Studia filosofia e legge presso l'Università di Pavia.</li>
-        <li><strong>1763:</strong> Laurea in legge e inizia a interessarsi alla riforma penale.</li>
-        <li><strong>1764:</strong> Pubblica i primi saggi filosofici.</li>
-        <li><strong>1764-1766:</strong> Lavora come magistrato e approfondisce studi sul diritto penale.</li>
-        <li><strong>1764:</strong> Scrive <em>Dei delitti e delle pene</em>, pubblicata nel 1764 a Livorno.</li>
-        <li><strong>1770-1790:</strong> Consigliere di importanti istituzioni pubbliche e promotore di riforme.</li>
-        <li><strong>1794:</strong> Muore a Milano il 28 novembre.</li>
-    </ul>
-</div>
+  </div>
+</section>
 
 
-            <button onclick="curiositaBeccaria()">Curiosità</button>
-        </section>
+  <!-- IMMAGINE CENTRALE -->
+  <section class="image-section reveal">
+    <img src="Cesare.jpg" alt="Cesare Beccaria" class="central-image">
+  </section>
 
-        <!-- SIDEBAR DESTRA -->
-        <aside class="sidebar">
-            <ul>
-                <li>Milano</li>
-                <li>Università di Pavia</li>
-                <li>Dei delitti e delle pene</li>
-                <li>Illuminismo</li>
-            </ul>
-        </aside>
+  <!-- FRASE FINALE -->
+  <section class="final-quote reveal">
+    <h3>
+Cesare Beccaria scrisse 'Dei delitti e delle pene' in soli 3 mesi, e l'opera ebbe un enorme impatto in tutta Europa!
+    </h3>
+  </section>
 
-    </main>
-
-    <!-- FOOTER -->
-    <footer>
-        <p>Sito realizzato da Ardia Manuel, Salzano Fiorentino, Nunziante Vito, Giannone Alessia – Prof. Costantino Antonella – Anno scolastico 2025/2026</p>
-    </footer>
-
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
